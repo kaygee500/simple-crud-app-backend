@@ -4,7 +4,7 @@ const dotenv =require("dotenv")
 const productRoute = require('./routes/product.route')
 dotenv.config()
 
-const app = express()
+const app = express();
 
 // middleware
 app.use(express.json())
