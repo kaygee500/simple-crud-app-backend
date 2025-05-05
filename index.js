@@ -5,6 +5,7 @@ const productRoute = require('./routes/product.route')
 dotenv.config()
 
 const app = express();
+app.disable("x-powered-by")
 
 // middleware
 app.use(express.json())
